@@ -15,7 +15,7 @@
   --igx-navbar-background: gold;
   height: max-content;
   min-width: min-content;
-  
+
 }
 .nav-drawer {
   min-width: min-content;
@@ -58,18 +58,9 @@
   flex-basis: 0;
 }
 
-@media (max-width: 768px) {
-  
-  .navbar-desktop {
-  display:none;
-}
-
-}
-
 @media (min-width: 768px) {
-  
-  .navbar-mobile {
-  display:none;
-}
 
+  .navbar-mobile {
+    display:none;
+  }
 }
